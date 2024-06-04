@@ -28,13 +28,14 @@ const images = [
 const gallaryList = document.querySelector(".gallery");
 const marcupImages = images
   .map(
-    (
-      image
-    ) => `<li class="gallery-item"><img src="${image.url}" alt="${image.alt}"  width="360"
+    ({
+      url,
+      alt,
+    }) => `<li class="gallery-item"><img src="${url}" alt="${alt}"  width="360"
   height="300"/></li>`
   )
   .join("");
 
 console.log(marcupImages);
 
-gallaryList.innerHTML = marcupImages;
+gallaryList.insertAdjacentHTML("afterbegin", marcupImages);
