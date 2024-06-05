@@ -28,10 +28,7 @@ const images = [
 const gallaryList = document.querySelector(".gallery");
 const marcupImages = images
   .map(
-    ({
-      url,
-      alt,
-    }) => `<li class="gallery-item"><img src="${url}" alt="${alt}"  width="360"
+    ({ url, alt }) => `<li><img src="${url}" alt="${alt}"  width="360"
   height="300"/></li>`
   )
   .join("");
