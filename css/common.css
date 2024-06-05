@@ -55,3 +55,59 @@ li {
   color: #2e2f42;
   padding-left: 16px;
 }
+
+/* task-4 */
+
+.login-form {
+  width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0 auto;
+}
+
+.login-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+
+  margin: 8px 0;
+}
+
+.login-form input:hover {
+  transform: scale(1.03);
+}
+
+.login-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  cursor: pointer;
+  border: none;
+}
+
+.login-form button:hover {
+  transform: scale(1.03);
+}
