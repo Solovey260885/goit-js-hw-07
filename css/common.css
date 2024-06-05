@@ -35,6 +35,8 @@ li {
 .js-name-input {
   width: 360px;
   height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
 }
 
 .js-title {
