@@ -162,3 +162,72 @@ li {
 .change-color:hover {
   transform: scale(1.03);
 }
+
+/* task - 6 */
+#controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  margin: 0 auto;
+}
+
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#controls button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  border: none;
+  cursor: pointer;
+}
+
+#controls button:last-child {
+  background: #ff4e4e;
+}
+
+#boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  border-radius: 8px;
+  padding: 32px;
+
+  width: 486px;
+  margin: 0 auto;
+}
