@@ -3,8 +3,9 @@ const btn = document.querySelector(".change-color");
 const nameBgColorBody = document.querySelector(".color");
 
 function changeBgColorOnClick() {
-  body.style.background = getRandomHexColor();
-  nameBgColorBody.textContent = getRandomHexColor();
+  let colorRandom = getRandomHexColor();
+  body.style.background = colorRandom;
+  nameBgColorBody.textContent = colorRandom;
 }
 btn.addEventListener("click", changeBgColorOnClick);
 
